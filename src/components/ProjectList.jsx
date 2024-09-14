@@ -9,8 +9,8 @@ const PROJECTS = [
 function ProjectList() {
   return (
     <ul>
-      {PROJECTS.map((project) => {
-        return <Project project={project} />;
+      {PROJECTS.map((project, index) => {
+        return <Project key={index} project={project} />;
       })}
     </ul>
   );
