@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import Home from "./Home";
 import ProjectList from "./ProjectList";
 
 function TabPanel(props) {
@@ -64,7 +65,7 @@ export default function VerticalTabs() {
         <Tab label="Contact" {...a11yProps(3)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        Item One
+        <Home />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <ProjectList />

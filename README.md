@@ -8,10 +8,11 @@ A site with a project, about, and contact section. The project section should in
 
 ## Stories
 - Functional tabs for each section of the portfolio [x]
-- Custom font for each text element
+- Custom font for each text element [x]
 - Dynamically added projects [x]
 - CSS animation for h1
 - CSS fade in animation for each section
 - The ability to expand and collapse each project
 - Project preview for each project item
 - Ocean-themed color scheme with good contrast
+- Customise MUI CSS instead of overriding with !important
