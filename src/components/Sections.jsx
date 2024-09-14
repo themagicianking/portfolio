@@ -65,7 +65,7 @@ export default function VerticalTabs() {
         <Tab label="About" {...a11yProps(2)} />
         <Tab label="Contact" {...a11yProps(3)} />
       </Tabs>
-      <TabPanel value={value} index={0}>
+      <TabPanel value={value} index={0} className="home-panel">
         <Home />
       </TabPanel>
       <TabPanel value={value} index={1}>
