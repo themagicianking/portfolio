@@ -1,0 +1,25 @@
+h1 {
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+h2,
+h3 {
+  font-family: "Bungee Inline", sans-serif;
+  color: #19454d;
+}
+
+h2,
+h3 {
+  font-family: "Bungee Inline", sans-serif;
+  color: #19454d;
+}
+
+a,
+ul,
+p,
+form,
+div, button, label {
+  font-family: "M PLUS Code Latin", monospace !important;
+}
