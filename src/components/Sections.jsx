@@ -49,7 +49,8 @@ export default function VerticalTabs() {
         bgcolor: "background.paper",
         display: "flex",
         flexDirection: "row-reverse",
-        height: 224,
+        height: "100vh",
+        backgroundImage: "linear-gradient(#B6FFFB, #17BEBB, #19454D)"
       }}
     >
       <Tabs
