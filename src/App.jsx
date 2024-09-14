@@ -12,11 +12,11 @@ function App() {
           <h2>Projects</h2>
           <ProjectList />
         </div>
-        <div id="about" className="section" style="display:none">
+        <div id="about" className="section" style={{ display: "none" }}>
           <h2>About</h2>
           <p>About section will go here.</p>
         </div>
-        <div id="contact" className="section" style="display:none">
+        <div id="contact" className="section" style={{ display: "none" }}>
           <h2>Contact</h2>
           <p>Contact form will go here.</p>
         </div>
