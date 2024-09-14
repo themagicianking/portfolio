@@ -1,14 +1,18 @@
 import Project from "./Project";
 
-let project = { name: "example name", description: "example description" };
+const PROJECTS = [
+  { name: "example name", description: "example description" },
+  { name: "example name", description: "example description" },
+  { name: "example name", description: "example description" },
+];
 
 function ProjectList() {
   return (
-    <>
-      <Project project={project} />
-      <Project project={project} />
-      <Project project={project} />
-    </>
+    <ul>
+      {PROJECTS.map((project) => {
+        return <Project project={project} />;
+      })}
+    </ul>
   );
 }
 export default ProjectList;
