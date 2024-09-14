@@ -68,7 +68,7 @@ export default function VerticalTabs() {
       <TabPanel value={value} index={0} className="home-panel">
         <Home />
       </TabPanel>
-      <TabPanel value={value} index={1}>
+      <TabPanel value={value} index={1} className="project-panel">
         <ProjectList />
       </TabPanel>
       <TabPanel value={value} index={2}>

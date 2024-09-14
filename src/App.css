@@ -24,6 +24,10 @@ p {
   font-size: 20px;
 }
 
+li {
+  list-style: none;
+}
+
 .home-panel {
   flex-grow: 1;
   align-self: center;
@@ -31,6 +35,11 @@ p {
 
 .home-card {
   text-align: center;
+}
+
+.project-panel {
+  flex-grow: 1;
+  align-self: center;
 }
 
 .project-display {
