@@ -1,3 +1,5 @@
+// add link to repo and demo?
+
 function Project({ project }) {
   return (
     <li>

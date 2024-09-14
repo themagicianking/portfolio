@@ -1,4 +1,5 @@
 import "./App.css";
+import ProjectList from "./components/ProjectList";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <nav>
         <div id="projects">
           <h2>Projects</h2>
-          <p>Projects will go here.</p>
+          <ProjectList />
         </div>
         <div id="about">
           <h2>About</h2>
