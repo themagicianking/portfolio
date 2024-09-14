@@ -47,6 +47,7 @@ export default function VerticalTabs() {
         flexGrow: 1,
         bgcolor: "background.paper",
         display: "flex",
+        flexDirection: "row-reverse",
         height: 224,
       }}
     >
