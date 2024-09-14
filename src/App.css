@@ -19,3 +19,13 @@ button,
 label {
   font-family: "M PLUS Code Latin", monospace !important;
 }
+
+.project-display {
+  font-family: "Bungee Inline", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #19454D;
+  text-shadow: -5px 5px 1px #F4857B,
+  -7px 10px 1px #FCDC5F;
+}
