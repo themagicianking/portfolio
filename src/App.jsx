@@ -1,4 +1,6 @@
 import "./App.css";
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 import ProjectList from "./components/ProjectList";
 
 function App() {
@@ -7,7 +9,8 @@ function App() {
       <p>Hi, I'm</p>
       <h1>Thane</h1>
       <p>full stack software engineer</p>
-      <nav>
+      <Tabs></Tabs>
+      {/* <nav>
         <div id="projects" className="section" style={{ display: "none" }}>
           <h2>Projects</h2>
           <ProjectList />
@@ -24,7 +27,7 @@ function App() {
         <button>Projects</button>
         <button>About</button>
         <button>Contact</button>
-      </nav>
+      </nav> */}
     </>
   );
 }
